@@ -1,0 +1,15 @@
+p{
+    color: black;
+}
+h4{
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+   font-weight: bold;
+}
+
+a:hover{
+
+    font-weight: 500;
+     text-decoration: inherit;
+}
