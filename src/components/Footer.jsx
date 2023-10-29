@@ -4,10 +4,10 @@ import '../styles/Footer.css'
 
 export default function Footer() {
   return (
-    <div className=''>
+    <div className='Footer-section'>
       <div className=''>
-        <div  className='flex justify-between'>
-          <div className='font-sans  '>
+        <div  className='flex justify-between  border-slate-950' >
+          <div className='font-sans'>
             <h4 className=''>Follow Us </h4>
             <a href="/instagram">
               <p>Instagram</p>
@@ -22,7 +22,7 @@ export default function Footer() {
               <p>Twitter</p>
             </a>
           </div> 
-          <div className='footer-links'>
+          <div className=''>
             <h4>About Petify </h4>
             <a href="Who-we-are">
               <p>Who we are ?</p>
@@ -37,20 +37,20 @@ export default function Footer() {
               <p>Cookie Notice</p>
             </a>
           </div> 
-          <div className='footer-links'>
-            <h4 className='underline'>Subscribe to our newsletter </h4> <br />
-            <p>Stay updated on new releases <br /> and features, guides,
+          <div className=''>
+            <h4 className='underline'> Subscribe to our newsletter </h4> <br />
+            <p> Stay updated on new releases <br /> and features, guides,
                 and Products.</p>
                 <br />
-            <div className=" border-white text-white">
+            <div className="input">
                 {/* <Input label= "" className='w-64 rounded-full'/> */}
-                <input label="Your Email" type="text" className='w-64 rounded-full text-white	' />
+                <input  placeholder="Your Email" type="text" className='w-64 rounded-full text-white px-3	'  />
                 <br />
             <br />
                 <button className="w-48 bg-cyan-500 hover:bg-cyan-600 rounded-full">Subscribe</button>
             </div>
           </div> 
-           <div className='footer-links'>
+           <div className=''>
             <h4>Other  </h4>
             <a href="/Help">
               <p>Help</p>
@@ -63,7 +63,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className='mt-8 tracking-widest	'>
+        <div className='mt-8 tracking-widest border-t-2 border-slate-950'>
           <p>All right reserved to © Petify 2023</p>
         </div>
       </div>
