@@ -24,16 +24,16 @@ export default function Footer() {
           </div> 
           <div className='footer-links'>
             <h4>About Petify </h4>
-            <a href="/instagram">
+            <a href="Who-we-are">
               <p>Who we are ?</p>
             </a>
-            <a href="/instagram">
+            <a href="/Privacy-policy">
               <p>Privacy Policy</p>
             </a>
-            <a href="/instagram">
+            <a href="/Terms-of-use">
               <p>Terms Of Use</p>
             </a> 
-            <a href="/instagram">
+            <a href="/Cookie=notice">
               <p>Cookie Notice</p>
             </a>
           </div> 
@@ -52,13 +52,13 @@ export default function Footer() {
           </div> 
            <div className='footer-links'>
             <h4>Other  </h4>
-            <a href="/instagram">
+            <a href="/Help">
               <p>Help</p>
             </a>
-            <a href="/instagram">
+            <a href="/Contact">
               <p>Contact</p>
             </a>
-            <a href="/instagram">
+            <a href="/About-us">
               <p>About us</p>
             </a>
           </div>
